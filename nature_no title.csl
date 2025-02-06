@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="fr-FR">
+  <info>
+    <title>Bourgogne-Franche-Comté Nature (Franais) - No Title</title>
+    <title-short>BFCN-NoTitle</title-short>
+    <id>http://www.zotero.org/styles/bourgogne-franche-comte-nature-no-title</id>
+    <link href="http://www.zotero.org/styles/bourgogne-franche-comte-nature-no-title" rel="self"/>
+    <author>
+      <name>Modified by User</name>
+    </author>
+    <category citation-format="author-date"/>
+    <category field="biology"/>
+    <category field="zoology"/>
+    <category field="geography"/>
+    <updated>2025-02-06T00:00:00+00:00</updated>
+  </info>
+  <bibliography hanging-indent="true" entry-spacing="0" line-spacing="1">
+    <sort>
+      <key macro="author"/>
+      <key macro="issued" sort="descending"/>
+    </sort>
+    <layout>
+      <group suffix=".">
+        <text macro="author" suffix=""/>
+        <text macro="issued" prefix=" "/>
+        <group prefix=". ">
+          <text macro="container"/>
+          <text macro="locators"/>
+        </group>
+      </group>
+      <text macro="access" prefix=". "/>
+    </layout>
+  </bibliography>
+</style>
